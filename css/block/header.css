@@ -6,21 +6,22 @@
     display: flex;
     gap: 209px;
     justify-content: center;
+    align-items: center;
 }
 
-.header__wrapper {
+.main-nav {
     display: flex;
     gap: 40px;
     justify-content: flex-end;
 }
 
-.header__menu-list {
+.main-nav__list {
     list-style: none;
     display: flex;
     gap: 40px;
 }
 
-.header__menu-link {
+.main-nav__link {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;

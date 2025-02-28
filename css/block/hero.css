@@ -1,0 +1,29 @@
+.hero__wrapper {
+    display: flex;
+    gap: 109px;
+}
+
+.hero__inner {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.hero__slogan {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    color: #000000;
+    width: 531px;
+    min-height: 231px;
+    height: auto;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    width: 4398x;
+    min-height: 112px;
+}

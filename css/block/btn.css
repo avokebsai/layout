@@ -1,0 +1,12 @@
+.btn {
+    background-color: #191A23;
+    border: none;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.btn--title {
+    padding: 20px 35px;
+    width: 264px;
+    border-radius: 14px;
+}

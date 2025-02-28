@@ -1,12 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .hero {
+    width: 1440px;
+    margin: auto;
+    padding: 0 100px
+} */
+
 .hero__wrapper {
     display: flex;
     gap: 109px;
+    padding: 0 0 70px;
 }
 
 .hero__inner {
     display: flex;
     gap: 35px;
     flex-direction: column;
+    width: 531px;
 }
 
 .hero__slogan {
@@ -27,3 +39,21 @@
     width: 4398x;
     min-height: 112px;
 }
+
+
+/* Company logo */
+
+.hero__logos {
+    margin: 0;
+    padding: 0 0 140px;
+}
+
+.hero__logos-company {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin: 0;
+    padding: 0;
+}
+

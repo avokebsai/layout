@@ -3,10 +3,24 @@
     border: none;
     color: #ffffff;
     box-sizing: border-box;
+    border-radius: 14px;
 }
 
 .btn--title {
     padding: 20px 35px;
     width: 264px;
-    border-radius: 14px;
+}
+
+.btn--services {
+    padding: 20px;
+    width: 288px;
+    text-align: center;
+}
+
+.btn--team-cards {
+    display: block;
+    width: 269px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
 }

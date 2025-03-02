@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .services-cards__title {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 0 0 80px;
 }
 
 .services-cards__title-name {
@@ -21,4 +27,121 @@
     line-height: 23px;
     color: #000000;
     width: 580px;
+}
+
+/* Карточка с ссылкой */
+
+.services-cards__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.services-cards__list-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 0 100px;
+}
+
+.services-cards__list-hero {
+    display: flex;
+    gap: 63px;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    box-shadow: 0px 5px 0px 0px #191A23;
+    border: 1px solid #191A23;
+    width: 600px;
+    padding: 50px;
+}
+
+.services-cards__list-hero--green {
+    background-color: #B9FF66;
+}
+
+.services-cards__list-hero--black {
+    background-color: #191A23;
+}
+
+.services-cards__list-text {
+    display: flex;
+    flex-direction: column;
+    gap: 93px 0;
+}
+
+.services-cards__list-name {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    display: block;
+    background-color: #B9FF66;
+    width: 221px;
+    border-radius: 7px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 7px;
+}
+
+.services-cards__list-name--accent {
+    width: 197px;
+}
+
+.services-cards__list-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+
+.services-cards__list-more {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.services-cards__list-more--white {
+    color: #ffffff;
+}
+
+.services-cards__contact {
+    background-color: #F3F3F3;
+    padding: 60px;
+    display: flex;
+    gap: 186px;
+    border-radius: 45px;
+    background-size: cover;
+}
+
+.services-cards__contact-hero {
+    width: 500px;
+}
+
+.services-cards__contact-inscription {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+    margin: 0;
+    padding: 0 0 26px;
+}
+
+.services-cards__contact-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    padding: 0 0 26px;
+    margin: 0;
+    min-height: 69px;
+    height: auto;
+}
+
+.services-cards__contact-img {
+    margin: -84px 0;
+    height: 359px;
+    width: 394px;
 }
